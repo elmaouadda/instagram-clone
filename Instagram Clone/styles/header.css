@@ -1,0 +1,155 @@
+@media (min-width: 0) and (max-width: 1000px){
+.friend-profile-wide{
+    display: none;
+}
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 0;
+        width: 600px;
+    }
+
+    .notifications-message{
+        display: flex;
+        justify-content: space-around;
+    }
+   
+
+    .message-count{
+        background-color: red;
+        color: white;
+        width: 20px;
+        border-radius: 15px;
+        font-size: 15px;
+        font-weight: 700;
+
+        position: absolute;
+      transform: translateX(37px);
+        
+
+
+    }
+    
+    .instagram-icon{
+        height: 160px;
+        width: 160px;
+        object-fit: contain;
+    }
+    
+    .message-icon{
+        color: azure;
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+    }
+    
+    .writing-below{
+        font-family: roboto, arial;
+        margin: 10px;
+    }
+    .header2{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+        width: 600px;
+    
+    }
+    
+    .adil, .gwaba, .bro, .mohcine{
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 60px;
+        margin-right: 30px;
+    
+        border-color: red;
+        border-width: 3px;
+        border-style: solid;
+    
+    }
+    
+    .my-profile{
+        position: relative;
+    }
+    
+   .tooltip-add  i{
+    
+    background-color: rgb(74, 138, 235);
+        color: rgb(236, 229, 229);
+
+        border-radius: 30px;
+        transform: translate(-71px, -8px);
+        font-size: 20px;
+    }
+}
+
+@media  (min-width: 1000px) {
+    .friend-profile{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -20px;
+    }
+
+    .friend-profile-wide{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -20px;
+    }
+    
+    .header,.adil, .my-profile{
+        display: none;
+    }
+    
+    .header2{
+        display: flex;
+        justify-content: center ;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-left: -19px ;
+        width: 640px;
+
+    }
+    
+    .gwaba, .bro, .mohcine{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 60px;
+        
+    
+        border-color: red;
+        border-width: 3px;
+        border-style: solid;
+    
+    }
+    .writing-below{
+        font-family: roboto, arial;
+        font-size: 10px;
+        margin-left: 9px;
+        white-space: nowrap;
+    }
+
+    .my-profile{
+        position: relative;
+    }
+
+    .circle-plus{
+        font-size: 10px;
+    }
+    
+    }
+
+
+
+    
+
+    
+   
+   
+

@@ -1,0 +1,136 @@
+.line-picture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.points{
+    transform: rotate(90deg);
+    margin-right: 110px;
+}
+
+.acc-name{
+    display: flex;
+    align-items: center;
+
+
+    
+}
+
+.picture-account{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 40px;
+
+}
+
+.name{
+    font-family: roboto, arial;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.picture-content{
+    width: 550px;
+    margin-left: 35px;
+
+}
+
+.above-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.save-icon{
+    margin-right: 110px;
+}
+.like-count{
+    font-weight: 700;
+font-size: 17px;
+margin-bottom: 7px;
+}
+
+
+
+.name-and-description{
+    margin-bottom: 5px;
+    width: 550px ;
+
+}
+
+.comment-number{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.comment-picture{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+}
+
+.picture-s-comment{
+    display: flex;
+    align-items: center;
+}
+
+.add-comment{
+font-size: 18px;
+color: gray;
+}
+
+.content-info{
+    margin-left: 40px;
+}
+
+.all-content{
+    
+    margin-bottom: 40px;
+    
+}
+
+
+@media (min-width: 1000px) {
+    .picture-account{
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        margin-right: 10px;
+        margin-left: 40px;
+    
+    }
+    
+    .name{
+        font-family: roboto, arial;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    .picture-content{
+        width: 490px;
+        margin-left: 35px;
+        object-fit: cover;
+    
+    }
+
+    .points{
+        transform: rotate(0deg);
+        margin-right: 160px;
+    }
+    
+    .save-icon{
+        margin-left: 0px;
+    }
+    .name-and-description{
+        width: 489px;
+    }
+}

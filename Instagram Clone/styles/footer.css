@@ -1,0 +1,60 @@
+
+
+
+@media (min-width: 0) and (max-width: 1000px){
+   
+    .foot-bar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 600px;
+
+        margin-top: 10px;
+        padding-top: 5px;
+        
+        border-top-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        
+    }
+    
+    
+    .foot{
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 10;
+    height: 70px;
+    
+        
+    
+    }
+    
+    .foot img{
+        width: 40px;
+        height: 40px;
+        margin-top: 5px ;
+        position: center;
+    }
+    
+    
+    
+    .profile-foot{
+        border-radius: 20px;
+    }
+
+    i{
+        font-size: 40px;
+        margin-left: 4px;
+    }
+
+   
+}
+
+@media (min-width: 1000px) {
+    .foot{
+        display: none;
+    }
+}
